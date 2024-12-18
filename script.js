@@ -20,5 +20,4 @@ function subtraction(){
 
 function resetZero(){
     number.value = 0;
-    alert("Number is reset to '0'");
 }
