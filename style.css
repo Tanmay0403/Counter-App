@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* margin-top: 200px;
+    margin-left: 200px; */
+    position: absolute;
+    top:30%;
+    left:30%;
+}
+.container h1{
+    font-weight: 100;
+    font-size: 3em;
+}
+.container p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.application{
+    margin-top: 10px;
+    background-color: #EEE8D5;
+    padding:10px;
+    width:500px;
+}
+.application> input[type=number]{
+    /* margin-top: 10px; */
+    width:450px;
+    height:30px;
+    font-size: 22px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px black solid;
+}
+
+#cross{
+    /* margin-top: 1px; */
+    background-color: #FFFF;
+    height:31px;
+    font-size: 20px;
+    border: 1px black solid;
+    border-radius: 0px 5px 5px 0px;
+    width:30px;
+    margin-left: 0px;
+}
+
+#plus{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    width:480px;
+    height:30px;
+    background-color: #198754;
+    color: #FFFF;
+    border:0px;
+    border-radius: 5px;
+}
+
+#minus{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    width:480px;
+    height: 30px;
+    color: #FFFF;
+    border:0px;
+    border-radius: 5px;
+    background-color: #6C757D;
+}
