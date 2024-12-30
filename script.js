@@ -5,16 +5,20 @@ const cross = document.getElementById("cross");
 
 var num = 0;
 
-function addition(){
+function increment(){
     num = parseInt(number.value) + 1;
     number.value = num;
 }
 
-function subtraction(){
+function decrement(){
     if(number.value>0)
     {
         num = parseInt(number.value) - 1;
         number.value = num;
+    }
+    else
+    {
+        alert("Number cannot be less than 0");
     }
 }
 

@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Click Counter</h1>
-        <p>Click counter online. Click '+' button or space to count:</p>
-        <div class="application">
-            <input type="number" name="" id="number" min="0" value="0"><button id="cross" onclick="resetZero()"">x</button>
-            <button id="plus" onclick="addition()">+</button>
-            <button id="minus" onclick="subtraction()">-</button>
+    <div class="flexbox">
+        <div class="container">
+            <h1>Click Counter</h1>
+            <p>Click counter online. Click '+' button or space to count:</p>
+            <div class="application">
+                <input type="number" name="" id="number" min="0" value="0"><button id="cross" onclick="resetZero()"">x</button>
+                <button id="plus" onclick="increment()">+</button>
+                <button id="minus" onclick="decrement()">-</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
